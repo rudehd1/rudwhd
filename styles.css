@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 1200px; /* 화면 너비를 크게 조정 */
+    height: 300px; /* 화면 높이를 크게 조정 */
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+canvas {
+    display: block;
+    background-color: #f7f7f7;
+}
